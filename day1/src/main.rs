@@ -1,7 +1,7 @@
 use std::{collections::HashMap, fs::read_to_string};
 
 fn main() {
-    let lines: Vec<String> = read_to_string("src/input")
+    let lines: Vec<String> = read_to_string("day1/src/input")
         .unwrap()
         .lines()
         .map(String::from)
